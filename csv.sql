@@ -1,0 +1,4 @@
+LOAD DATA LOCAL INFILE './fcfb50bc-9fcf-4fab-8d9d-0873de52bdbd.csv'
+INTO TABLE Customers
+FIELDS TERMINATED BY ','
+IGNORE 1 LINES;
